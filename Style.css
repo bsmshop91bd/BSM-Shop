@@ -1,0 +1,160 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+header .logo h1 {
+  display: inline;
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: #009688;
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Products Section */
+.products {
+  padding: 2rem;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  color: #333;
+}
+
+.buy-btn {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: #00796b;
+}
+
+/* Contact Section */
+.contact {
+  background: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact form {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.contact input[type="submit"] {
+  background-color: #009688;
+  color: white;
+  cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #00796b;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
